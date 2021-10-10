@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileAlt, faHeartbeat, faCalendarDay } from '@fortawesome/free-solid-svg-icons'
 import '../styles/components/Form.css';
-import { Redirect } from 'react-router';
 
 const FormArterial = () => {
     const [diastolic, setDiastolic] = useState(0);

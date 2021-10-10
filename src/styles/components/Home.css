@@ -1,5 +1,5 @@
  .Home{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url('../../static/img4.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url('../../static/manos.jpg');
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -13,4 +13,5 @@
   text-align: center;
   color: aliceblue;
   margin-bottom: 60px;
+  font-size: xx-large;
 }

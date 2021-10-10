@@ -12,10 +12,9 @@ const Header = () => {
         <Link to="/" onClick={() => setMenu(false)}>
           <img src={img1} alt="Cons" />
         </Link>
-        <p>TeCuida</p>
         <ul className={`menu ${menu ? 'active' : 'inactive'}`}>
           <li className="item">
-            <Link to="/signup" onClick={() => setMenu(false)}>
+            <Link to="/login" onClick={() => setMenu(false)}>
               Acceder
             </Link>
           </li>
@@ -27,6 +26,11 @@ const Header = () => {
           <li className="item">
             <Link to="/get-arterial-data" onClick={() => setMenu(false)}>
               Consultar registros
+            </Link>
+          </li>
+          <li className="item">
+            <Link to="videos" onClick={() => setMenu(false)}>
+              Videos
             </Link>
           </li>
         </ul>
