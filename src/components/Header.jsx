@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import img1 from '../static/img1.png'
+import img1 from '../static/Logo.png'
 import '../styles/components/Header.css';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         <Link to="/" onClick={() => setMenu(false)}>
           <img src={img1} alt="Cons" />
         </Link>
-        <p>ConsultoriOnline</p>
+        <p>TeCuida</p>
         <ul className={`menu ${menu ? 'active' : 'inactive'}`}>
           <li className="item">
             <Link to="/signup" onClick={() => setMenu(false)}>
@@ -20,8 +20,13 @@ const Header = () => {
             </Link>
           </li>
           <li className="item">
-            <Link to="/available-appointments" onClick={() => setMenu(false)}>
-              Citas disponibles
+            <Link to="/register-arterial-pressure" onClick={() => setMenu(false)}>
+              Presión arterial
+            </Link>
+          </li>
+          <li className="item">
+            <Link to="/get-arterial-data" onClick={() => setMenu(false)}>
+              Consultar registros
             </Link>
           </li>
         </ul>

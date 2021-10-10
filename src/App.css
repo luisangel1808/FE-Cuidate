@@ -64,6 +64,29 @@ input::-webkit-inner-spin-button {
   margin: 10px;
 }
 
+table{
+  width:50vw;
+  border-collapse: collapse;
+  color: black;
+}
+
+thead {
+  background-color:gray;
+  color:white;
+  text-align: center;
+  padding: 40px;
+}
+th, td{
+  padding: 15px;
+}
+tbody  tr:nth-child(odd){
+  background-color: rgb(51, 177, 145);
+}
+tbody tr:nth-child(even){
+  background-color: blanchedalmond;
+}
+
+
 tbody tr:hover{
   background-color: bisque;
 }

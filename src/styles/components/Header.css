@@ -16,7 +16,7 @@ header svg{
   cursor: pointer;
 }
 nav {
-  background: white;
+  background: rgb(109, 226, 255);
   box-shadow: 0 12px 6px -6px black;
   display: flex;
   width: 100%;
@@ -38,7 +38,7 @@ a {
 .menu li a {
   display: block;
   padding: 5px 5px;
-  color: rgb(79, 30, 255);
+  
 }
 
 .toggle {
@@ -58,9 +58,7 @@ a {
   text-align: center;
   display: none;
 }
-.menu li a:hover{
-  color: rgb(133, 101, 250);
-}
+
 .active .item {
   display: block;
 }
