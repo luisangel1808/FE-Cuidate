@@ -1,0 +1,16 @@
+ .Home{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url('../../static/img4.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+.Home h1{
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 60px;
+}

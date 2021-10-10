@@ -1,0 +1,32 @@
+.review{
+    width: 80vw;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    margin: 4em;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+
+.review .resalted{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(253, 154, 137);
+    width: fit-content;
+}
+
+.review h3{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(21, 180, 6);
+    font-weight: bold;
+    font-size: medium;
+    width: fit-content;
+}
